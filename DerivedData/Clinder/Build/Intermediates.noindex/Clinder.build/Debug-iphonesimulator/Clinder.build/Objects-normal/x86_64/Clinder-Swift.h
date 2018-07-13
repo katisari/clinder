@@ -207,11 +207,18 @@ SWIFT_CLASS("_TtC7Clinder22CheckoutViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UIStoryboardSegue;
+@class UIButton;
 
 SWIFT_CLASS("_TtC7Clinder14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified ImageDisplayed;
 - (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (void)didReceiveMemoryWarning;
+- (IBAction)noButtonPressed:(UIButton * _Nonnull)sender;
+- (IBAction)yesButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

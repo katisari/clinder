@@ -1,7 +1,8 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "c9dd868b64c9d24dd09174374966b0c2"
-build_time: [1531443483, 657966000]
+build_time: [1531449628, 683928000]
 inputs:
-  "/Users/katielee/Desktop/iOS/Clinder/Clinder/ViewController.swift": [1531441997, 0]
+  "/Users/katielee/Desktop/iOS/Clinder/Clinder/ViewController.swift": [1531449627, 0]
   "/Users/katielee/Desktop/iOS/Clinder/Clinder/customCell.swift": [1531443482, 0]
+  "/Users/katielee/Desktop/iOS/Clinder/Clinder/CheckoutViewController.swift": [1531444323, 0]
   "/Users/katielee/Desktop/iOS/Clinder/Clinder/AppDelegate.swift": [1531441997, 0]

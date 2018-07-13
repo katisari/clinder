@@ -31,10 +31,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6z-Dx-HcG">
                                         <rect key="frame" x="0.0" y="0.0" width="187.5" height="133"/>
                                         <state key="normal" title="No"/>
+                                        <connections>
+                                            <action selector="noButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DMa-SK-Mrc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsS-Bs-MfZ">
                                         <rect key="frame" x="187.5" y="0.0" width="187.5" height="133"/>
                                         <state key="normal" title="Yes"/>
+                                        <connections>
+                                            <action selector="yesButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ir-TP-lv8"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -54,10 +60,13 @@
                     <navigationItem key="navigationItem" title="PIck Socks!" id="sLB-uR-j5T">
                         <barButtonItem key="rightBarButtonItem" systemItem="organize" id="czr-CO-rBH">
                             <connections>
-                                <segue destination="hEq-P8-Rvh" kind="show" id="oB9-vF-4pC"/>
+                                <segue destination="hEq-P8-Rvh" kind="show" identifier="maintocheckoutSegue" id="oB9-vF-4pC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="ImageDisplayed" destination="vAj-qe-Cby" id="dgz-Rm-wJb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
