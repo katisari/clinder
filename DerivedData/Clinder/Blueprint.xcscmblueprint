@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9C136C143D65D58F87C05B413287F252E0EAA175",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4C96983FD2E793E814F63F970F3C05B3F3B723E5" : 0,
+    "9C136C143D65D58F87C05B413287F252E0EAA175" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "52D12C5C-9E6A-45E2-9652-EA218EE8DB26",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4C96983FD2E793E814F63F970F3C05B3F3B723E5" : "",
+    "9C136C143D65D58F87C05B413287F252E0EAA175" : "Clinder\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Clinder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Clinder.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katisari\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C96983FD2E793E814F63F970F3C05B3F3B723E5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katisari\/clinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C136C143D65D58F87C05B413287F252E0EAA175"
+    }
+  ]
+}

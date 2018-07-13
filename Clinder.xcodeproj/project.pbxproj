@@ -13,6 +13,8 @@
 		35BB773920F82ACE00AB422B /* Clinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35BB773720F82ACE00AB422B /* Clinder.xcdatamodeld */; };
 		35BB773B20F82ACE00AB422B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BB773A20F82ACE00AB422B /* Assets.xcassets */; };
 		35BB773E20F82ACE00AB422B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BB773C20F82ACE00AB422B /* LaunchScreen.storyboard */; };
+		35BB774620F8309A00AB422B /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB774520F8309A00AB422B /* customCell.swift */; };
+		35BB774820F833DC00AB422B /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB774720F833DC00AB422B /* CheckoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		35BB773A20F82ACE00AB422B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35BB773D20F82ACE00AB422B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35BB773F20F82ACE00AB422B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35BB774520F8309A00AB422B /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		35BB774720F833DC00AB422B /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				35BB773020F82ACD00AB422B /* AppDelegate.swift */,
 				35BB773220F82ACD00AB422B /* ViewController.swift */,
 				35BB773420F82ACD00AB422B /* Main.storyboard */,
+				35BB774720F833DC00AB422B /* CheckoutViewController.swift */,
+				35BB774520F8309A00AB422B /* customCell.swift */,
 				35BB773A20F82ACE00AB422B /* Assets.xcassets */,
 				35BB773C20F82ACE00AB422B /* LaunchScreen.storyboard */,
 				35BB773F20F82ACE00AB422B /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				35BB773920F82ACE00AB422B /* Clinder.xcdatamodeld in Sources */,
 				35BB773320F82ACD00AB422B /* ViewController.swift in Sources */,
+				35BB774620F8309A00AB422B /* customCell.swift in Sources */,
+				35BB774820F833DC00AB422B /* CheckoutViewController.swift in Sources */,
 				35BB773120F82ACD00AB422B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
